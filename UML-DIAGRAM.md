@@ -1,3 +1,3 @@
-**Fitness App UML Diagram**
+**Fitness App UML Class Diagram**
 
-![Fitness.png](/.attachments/Fitness-d43a92a7-844c-475e-91d1-0eb7264ee8c9.png)
+![Fitness.png](/.attachments/Fitness-df1dade1-ae32-4d55-a303-013737313e15.png)
