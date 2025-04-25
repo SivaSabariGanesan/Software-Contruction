@@ -1,4 +1,4 @@
-::: mermaid
+```mermaid
 flowchart LR
 
     %% Client
@@ -47,4 +47,4 @@ flowchart LR
     B1 --> T1
     B4 --> T2
     B1 --> T3
-:::
+```
