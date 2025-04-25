@@ -2,8 +2,8 @@
 flowchart LR
 
     %% Client
-    subgraph CLIENT [Flutter App]
-        A1[Flutter Mobile App]
+    subgraph CLIENT [React Native App]
+        A1[React Native Mobile App]
     end
 
     %% Backend Services
