@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 
 flowchart LR
   %% Actors
@@ -81,4 +81,4 @@ flowchart LR
   UC_Nutrition --> UC_Meal
 
 
-:::
+```
