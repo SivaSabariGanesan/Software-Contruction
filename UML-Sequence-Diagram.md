@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 sequenceDiagram
     participant User
     participant App
@@ -33,4 +33,4 @@ sequenceDiagram
     User ->> App: Logout
     App ->> AuthService: End session
 
-:::
+```
