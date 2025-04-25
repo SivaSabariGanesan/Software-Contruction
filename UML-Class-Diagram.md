@@ -1,4 +1,4 @@
-::: mermaid
+```mermaid
  classDiagram
 
 class User {
@@ -58,4 +58,4 @@ NutritionPlan "1" --> "*" Meal : contains
 User "1" --> "*" Progress : logs
 
 
-:::
+```
