@@ -1,77 +1,73 @@
 # 🏋️‍♂️ Fitness App - Software Construction Lab
 
-> *Empowering users to achieve their fitness goals through technology.*
+> *Empowering users to achieve their fitness goals through technology.*  
 
 ---
 
-## 🔷 Quick Overview
+## 🚀 Quick Overview
 
 Welcome to the **Fitness App** project repository, developed as part of the **Software Construction Lab** coursework.  
-This project focuses on applying best practices in software design and documentation to create a robust fitness tracking application.
+This project focuses on building a user-friendly fitness tracking application by applying best practices in software design and development.  
 
----
-
-## 🔹 Project Highlights
-
-- **Personalized Workout Tracking**
-- **Goal Setting and Monitoring**
-- **Progress Analytics**
-- **User-Centric Design**
+🔵 **Key Skills Demonstrated**: UML Design, Structured Documentation, Modular Architecture, Agile Thinking.
 
 ---
 
 ## 📂 Repository Structure
 
-| File | Purpose |
+| 📄 File | 📝 Purpose |
 |:-----|:--------|
-| `Fitness App UserStories.csv` | Comprehensive user stories collection |
+| `Fitness App UserStories.csv` | Collection of user stories and feature ideas |
 | `UML-Activity-Diagram.md` | Flow of activities within the app |
 | `UML-Architecture-Diagram.md` | High-level system architecture |
-| `UML-Class-Diagram.md` | Object-oriented design blueprint |
-| `UML-Sequence-Diagram.md` | Sequential interactions between components |
+| `UML-Class-Diagram.md` | Blueprint of object-oriented design |
+| `UML-Sequence-Diagram.md` | Sequential interaction between components |
 | `UML-Use-Case-Diagram.md` | Visual representation of user interactions |
 
 ---
 
-## 🔵 Technologies Used
+## 🛠️ Technologies and Tools
 
-- UML Diagrams for clear system visualization
-- Structured Documentation (Markdown, CSV)
-- Focus on Modular and Scalable Architecture
+- UML Diagrams (Activity, Architecture, Class, Sequence, Use-Case)
+- Markdown Documentation (.md files)
+- CSV for structured user story recording
+- Focus on modular, scalable, and clean design principles
 
 ---
 
 ## 📈 Sample User Stories
 
-- **Log Daily Workouts**: Users can record their exercise routines.
-- **Set Fitness Goals**: Personalized goals to stay motivated.
-- **View Progress Reports**: Analyze workout history and improvements.
+✅ **Log Daily Workouts**: Record exercises performed each day.  
+✅ **Set Fitness Goals**: Personalized short-term and long-term goals.  
+✅ **Track Progress**: Visualize workout history and improvements.  
+✅ **Get Motivated**: Set milestones and celebrate achievements.
 
-📂 *Find the complete list in* `Fitness App UserStories.csv`
+📋 *Find the complete user stories inside* `Fitness App UserStories.csv`
 
 ---
 
-## 👨‍💻 Contributors
+## 👥 Contributors
 
-| Name          | GitHub Profile |
-|---------------|----------------|
+| 👤 Name          | 🔗 GitHub Profile |
+|------------------|-------------------|
 | **SivaSabariGanesan** | [@SivaSabariGanesan](https://github.com/SivaSabariGanesan) |
-| **SivaRuhith**        | [@SivaRuhith](https://github.com/SivaRuhith) |
+| **SivaRuhith**         | [@SivaRuhith](https://github.com/SivaRuhith) |
 
 ---
 
 ## 📜 License
 
-This project is created for educational purposes and currently does not have a formal license.
+This project was developed for academic purposes and is currently **not under a specific license**.
 
 ---
 
 ## 🌟 Support the Project
 
-If you found this project helpful, consider giving it a ⭐ star to show your support!
+If you found this project helpful or inspiring,  
+please give it a ⭐ on GitHub to support future work and improvements!
 
 ---
 
 <p align="center">
-<b>Building Strength in Code and Body 💪</b>
+<b>Let's Build Strength — In Code and In Life 💪💻</b>
 </p>
