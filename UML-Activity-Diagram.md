@@ -1,31 +1,77 @@
+## Blog Management - Full Activity Diagram
+
 ```mermaid
 flowchart TD
-  A[Start] --> B[Open App]
-  B --> C{Is User Logged In?}
-  C -- No --> D[Show Login/Signup Screen]
-  D --> E[User Logs In or Signs Up]
-  E --> F[Show Dashboard]
-  C -- Yes --> F[Show Dashboard]
+  Start([Start])
+  
+  Start --> ChoiceLogin{Login or Register?}
+  
+  ChoiceLogin -- Login --> LoginPage[Login Page]
+  ChoiceLogin -- Register --> RegisterPage[Register Page]
 
-  F --> G{Choose Activity}
-  G --> H[Start Workout]
-  G --> I[View Nutrition Plan]
-  G --> J[Track Progress]
+  LoginPage --> LoginSuccess{Login Successful?}
+  RegisterPage --> RegisterSuccess{Register Successful?}
 
-  H --> K[Select Workout Plan]
-  K --> L[Start Exercise]
-  L --> M[Log Exercise Data]
-  M --> N[Update Progress]
+  LoginSuccess -- Yes --> Dashboard
+  LoginSuccess -- No --> LoginPage
 
-  I --> O[Select Meal]
-  O --> P[View Meal Details]
-  P --> Q[Log Meal Intake]
+  RegisterSuccess -- Yes --> LoginPage
+  RegisterSuccess -- No --> RegisterPage
 
-  J --> R[Enter Weight/Notes]
-  R --> N
+  Dashboard --> RoleChoice{Select Role}
 
-  N --> S[Show Updated Progress]
-  S --> T[Back to Dashboard]
-  T --> U[Logout or Exit]
-  U --> V[End]
-```
+  RoleChoice -- Admin --> AdminDashboard
+  RoleChoice -- Author --> AuthorDashboard
+  RoleChoice -- Reader --> ReaderDashboard
+
+  %% Admin Actions
+  AdminDashboard --> ManageUsers[Manage Users (Add/Update/Delete)]
+  AdminDashboard --> ManageBlogs[Manage Blogs (Approve/Edit/Delete)]
+  AdminDashboard --> ViewReports[View Site Reports]
+  
+  ManageUsers --> AdminDashboard
+  ManageBlogs --> AdminDashboard
+  ViewReports --> AdminDashboard
+  
+  %% Author Actions
+  AuthorDashboard --> CreateBlog[Create New Blog]
+  AuthorDashboard --> EditBlog[Edit Existing Blog]
+  AuthorDashboard --> DeleteBlog[Delete Blog]
+  AuthorDashboard --> ManageOwnComments[Manage Comments on Own Blog]
+
+  CreateBlog --> SubmitBlog{Submit Blog for Approval?}
+  SubmitBlog -- Yes --> WaitApproval[Waiting for Admin Approval]
+  SubmitBlog -- No --> AuthorDashboard
+
+  WaitApproval --> ApprovalResult{Admin Approved?}
+  ApprovalResult -- Yes --> Published[Blog Published]
+  ApprovalResult -- No --> Rejected[Blog Rejected (Edit and Resubmit)]
+
+  Published --> AuthorDashboard
+  Rejected --> AuthorDashboard
+
+  EditBlog --> AuthorDashboard
+  DeleteBlog --> AuthorDashboard
+  ManageOwnComments --> AuthorDashboard
+
+  %% Reader Actions
+  ReaderDashboard --> BrowseBlogs[Browse Blogs]
+  BrowseBlogs --> ViewBlogDetail[View Blog Details]
+  
+  ViewBlogDetail --> CommentBlog[Comment on Blog]
+  ViewBlogDetail --> LikeBlog[Like Blog]
+  ViewBlogDetail --> ShareBlog[Share Blog]
+
+  CommentBlog --> CommentSubmitted{Comment Submitted?}
+  CommentSubmitted -- Yes --> ViewBlogDetail
+  CommentSubmitted -- No --> CommentBlog
+
+  LikeBlog --> ViewBlogDetail
+  ShareBlog --> ViewBlogDetail
+  
+  %% Logout and End
+  AdminDashboard --> Logout
+  AuthorDashboard --> Logout
+  ReaderDashboard --> Logout
+
+  Logout([Logout]) --> End([End])
