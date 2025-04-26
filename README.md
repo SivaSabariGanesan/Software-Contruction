@@ -1,14 +1,14 @@
-# 🏗️✨ Software Construction Lab - Fitness App
+# 🏋️‍♂️✨ Software Construction Lab - Fitness App
 
 Welcome to the Fitness App project repository!  
-Designed as part of the **Software Construction Lab**, this project focuses on building a robust fitness application using software engineering best practices.
+This project is part of the **Software Construction Lab**, focusing on building a fitness application with solid software engineering principles.
 
 ---
 
 ## 🚀 Quick Overview
-![Fitness Animation](https://media.giphy.com/media/l0MYOUI5XfRkYVVAA/giphy.gif)
+![Fitness Workout Animation](https://media.giphy.com/media/3o7TKP9Jx0RskjGzIc/giphy.gif)
 
-> *"Empowering fitness through technology!"*
+> *"Building strength in code and body!"*
 
 ---
 
@@ -16,7 +16,7 @@ Designed as part of the **Software Construction Lab**, this project focuses on b
 
 | File | Description |
 |:-----|:------------|
-| 📄 `Fitness App UserStories.csv` | List of user stories for app features |
+| 📄 `Fitness App UserStories.csv` | List of user stories for fitness features |
 | 🧩 `UML-Activity-Diagram.md` | Workflow of user activities |
 | 🏛️ `UML-Architecture-Diagram.md` | System architecture overview |
 | 🧬 `UML-Class-Diagram.md` | Classes and their relationships |
@@ -27,10 +27,10 @@ Designed as part of the **Software Construction Lab**, this project focuses on b
 
 ## 📜 Project Goals
 
-- 🏋️ Help users track workouts
-- 🎯 Manage and achieve fitness goals
-- 📈 View progress and analytics
-- 🛠️ Emphasize modular and scalable design
+- 🏋️ Track user workouts
+- 🎯 Set and achieve fitness goals
+- 📈 View workout history and analytics
+- 🛠️ Focus on scalable, modular system design
 
 ---
 
@@ -39,8 +39,8 @@ Designed as part of the **Software Construction Lab**, this project focuses on b
 
 ### 🛠️ Technologies and Tools
 - **UML Diagrams** (Activity, Architecture, Class, Sequence, Use Case)
-- **Markdown** for clean documentation
-- **CSV** for structured user story listing
+- **Markdown** for documentation
+- **CSV** for structured data
 
 </details>
 
@@ -51,35 +51,38 @@ Designed as part of the **Software Construction Lab**, this project focuses on b
 <details>
 <summary>📜 View Sample User Stories</summary>
 
-- As a user, I want to **track my daily workouts**, so that I can monitor my progress.
-- As a user, I want to **set fitness goals**, so that I stay motivated.
-- As a user, I want to **view workout history**, so that I can analyze my improvements.
+- As a user, I want to **log my daily workouts** to track my progress.
+- As a user, I want to **set personalized fitness goals** to stay motivated.
+- As a user, I want to **analyze my workout history** to plan better.
 
-📂 *More details in `Fitness App UserStories.csv`*
+📂 *More stories inside `Fitness App UserStories.csv`*
 
 </details>
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributors
 
-> 📚 This project is a lab assignment and is **not open** for external contributions at the moment.
+| Name         | GitHub Profile |
+|--------------|----------------|
+| SivaSabariGanesan | [@SivaSabariGanesan](https://github.com/SivaSabariGanesan) |
+| SivaRuhith   | [@SivaRuhith](https://github.com/SivaRuhith) |
 
 ---
 
 ## 📄 License
 
-🛡️ For educational use only. No license is currently assigned.
+🛡️ For educational purposes only. No official license assigned yet.
 
 ---
 
-## ⭐ Show Your Support!
+## ⭐ Support the Project!
 
-If you found this project helpful or inspiring, feel free to ⭐ star this repo!
+If you like this project, show your support by giving it a ⭐ star!
 
 ---
 
 <!-- Footer -->
 <p align="center">
-Made with ❤️ by SivaSabariGanesan
+Built with 💪 passion by SivaSabariGanesan and SivaRuhith
 </p>
