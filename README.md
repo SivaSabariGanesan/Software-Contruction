@@ -6,7 +6,7 @@ This project is part of the **Software Construction Lab**, focusing on building 
 ---
 
 ## 🚀 Quick Overview
-![Fitness Workout Animation](https://media.giphy.com/media/3o7TKP9Jx0RskjGzIc/giphy.gif)
+![Fitness Animation](https://media.giphy.com/media/26gsf7PUPoQYwSxaA/giphy.gif)
 
 > *"Building strength in code and body!"*
 
