@@ -6,18 +6,32 @@ flowchart TD
   Author((Author))
   Reader((Reader))
 
-  Admin -->|Manage| Users
-  Admin -->|Manage| Blogs
-  Admin -->|View| Reports
+  Users["Manage Users"]
+  Blogs["Manage Blogs"]
+  Reports["View Reports"]
+  
+  WritePost["Write Blog Post"]
+  EditPost["Edit Blog Post"]
+  DeletePost["Delete Blog Post"]
+  ViewOwn["View Own Blogs"]
+  ManageComments["Manage Comments"]
 
-  Author -->|Write| "Write Blog Post"
-  Author -->|Edit| "Edit Blog Post"
-  Author -->|Delete| "Delete Blog Post"
-  Author --> "View Own Blogs"
-  Author --> "Manage Comments"
+  ViewBlogs["View Blogs"]
+  SearchBlogs["Search Blogs"]
+  CommentBlog["Comment on Blog"]
+  LikeShareBlog["Like/Share Blog"]
 
-  Reader --> "View Blogs"
-  Reader --> "Search Blogs"
-  Reader --> "Comment on Blog"
-  Reader --> "Like/Share Blog"
-```
+  Admin --> Users
+  Admin --> Blogs
+  Admin --> Reports
+
+  Author --> WritePost
+  Author --> EditPost
+  Author --> DeletePost
+  Author --> ViewOwn
+  Author --> ManageComments
+
+  Reader --> ViewBlogs
+  Reader --> SearchBlogs
+  Reader --> CommentBlog
+  Reader --> LikeShareBlog
