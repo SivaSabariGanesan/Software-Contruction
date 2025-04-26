@@ -1,88 +1,77 @@
-# 🏋️‍♂️✨ Software Construction Lab - Fitness App
+# 🏋️‍♂️ Fitness App - Software Construction Lab
 
-Welcome to the Fitness App project repository!  
-This project is part of the **Software Construction Lab**, focusing on building a fitness application with solid software engineering principles.
-
----
-
-## 🚀 Quick Overview
-![Fitness Animation](https://media.giphy.com/media/26gsf7PUPoQYwSxaA/giphy.gif)
-
-> *"Building strength in code and body!"*
+> *Empowering users to achieve their fitness goals through technology.*
 
 ---
 
-## 📂 Project Structure
+## 🔷 Quick Overview
 
-| File | Description |
-|:-----|:------------|
-| 📄 `Fitness App UserStories.csv` | List of user stories for fitness features |
-| 🧩 `UML-Activity-Diagram.md` | Workflow of user activities |
-| 🏛️ `UML-Architecture-Diagram.md` | System architecture overview |
-| 🧬 `UML-Class-Diagram.md` | Classes and their relationships |
-| 🔁 `UML-Sequence-Diagram.md` | Object interaction sequences |
-| 🎭 `UML-Use-Case-Diagram.md` | User roles and system interactions |
+Welcome to the **Fitness App** project repository, developed as part of the **Software Construction Lab** coursework.  
+This project focuses on applying best practices in software design and documentation to create a robust fitness tracking application.
 
 ---
 
-## 📜 Project Goals
+## 🔹 Project Highlights
 
-- 🏋️ Track user workouts
-- 🎯 Set and achieve fitness goals
-- 📈 View workout history and analytics
-- 🛠️ Focus on scalable, modular system design
-
----
-
-<details>
-<summary>💡 Click to see the Technologies Used</summary>
-
-### 🛠️ Technologies and Tools
-- **UML Diagrams** (Activity, Architecture, Class, Sequence, Use Case)
-- **Markdown** for documentation
-- **CSV** for structured data
-
-</details>
+- **Personalized Workout Tracking**
+- **Goal Setting and Monitoring**
+- **Progress Analytics**
+- **User-Centric Design**
 
 ---
 
-## 🏆 User Stories Snapshot
+## 📂 Repository Structure
 
-<details>
-<summary>📜 View Sample User Stories</summary>
-
-- As a user, I want to **log my daily workouts** to track my progress.
-- As a user, I want to **set personalized fitness goals** to stay motivated.
-- As a user, I want to **analyze my workout history** to plan better.
-
-📂 *More stories inside `Fitness App UserStories.csv`*
-
-</details>
+| File | Purpose |
+|:-----|:--------|
+| `Fitness App UserStories.csv` | Comprehensive user stories collection |
+| `UML-Activity-Diagram.md` | Flow of activities within the app |
+| `UML-Architecture-Diagram.md` | High-level system architecture |
+| `UML-Class-Diagram.md` | Object-oriented design blueprint |
+| `UML-Sequence-Diagram.md` | Sequential interactions between components |
+| `UML-Use-Case-Diagram.md` | Visual representation of user interactions |
 
 ---
 
-## 🤝 Contributors
+## 🔵 Technologies Used
 
-| Name         | GitHub Profile |
-|--------------|----------------|
-| SivaSabariGanesan | [@SivaSabariGanesan](https://github.com/SivaSabariGanesan) |
-| SivaRuhith   | [@SivaRuhith](https://github.com/SivaRuhith) |
-
----
-
-## 📄 License
-
-🛡️ For educational purposes only. No official license assigned yet.
+- UML Diagrams for clear system visualization
+- Structured Documentation (Markdown, CSV)
+- Focus on Modular and Scalable Architecture
 
 ---
 
-## ⭐ Support the Project!
+## 📈 Sample User Stories
 
-If you like this project, show your support by giving it a ⭐ star!
+- **Log Daily Workouts**: Users can record their exercise routines.
+- **Set Fitness Goals**: Personalized goals to stay motivated.
+- **View Progress Reports**: Analyze workout history and improvements.
+
+📂 *Find the complete list in* `Fitness App UserStories.csv`
 
 ---
 
-<!-- Footer -->
+## 👨‍💻 Contributors
+
+| Name          | GitHub Profile |
+|---------------|----------------|
+| **SivaSabariGanesan** | [@SivaSabariGanesan](https://github.com/SivaSabariGanesan) |
+| **SivaRuhith**        | [@SivaRuhith](https://github.com/SivaRuhith) |
+
+---
+
+## 📜 License
+
+This project is created for educational purposes and currently does not have a formal license.
+
+---
+
+## 🌟 Support the Project
+
+If you found this project helpful, consider giving it a ⭐ star to show your support!
+
+---
+
 <p align="center">
-Built with 💪 passion by SivaSabariGanesan and SivaRuhith
+<b>Building Strength in Code and Body 💪</b>
 </p>
