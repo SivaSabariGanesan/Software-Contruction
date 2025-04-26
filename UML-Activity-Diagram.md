@@ -25,27 +25,27 @@ flowchart TD
   RoleChoice -- Reader --> ReaderDashboard
 
   %% Admin Actions
-  AdminDashboard --> ManageUsers[Manage Users (Add/Update/Delete)]
-  AdminDashboard --> ManageBlogs[Manage Blogs (Approve/Edit/Delete)]
-  AdminDashboard --> ViewReports[View Site Reports]
+  AdminDashboard --> ManageUsers["Manage Users: Add, Update, Delete"]
+  AdminDashboard --> ManageBlogs["Manage Blogs: Approve, Edit, Delete"]
+  AdminDashboard --> ViewReports["View Site Reports"]
   
   ManageUsers --> AdminDashboard
   ManageBlogs --> AdminDashboard
   ViewReports --> AdminDashboard
   
   %% Author Actions
-  AuthorDashboard --> CreateBlog[Create New Blog]
-  AuthorDashboard --> EditBlog[Edit Existing Blog]
-  AuthorDashboard --> DeleteBlog[Delete Blog]
-  AuthorDashboard --> ManageOwnComments[Manage Comments on Own Blog]
+  AuthorDashboard --> CreateBlog["Create New Blog"]
+  AuthorDashboard --> EditBlog["Edit Existing Blog"]
+  AuthorDashboard --> DeleteBlog["Delete Blog"]
+  AuthorDashboard --> ManageOwnComments["Manage Comments on Own Blog"]
 
   CreateBlog --> SubmitBlog{Submit Blog for Approval?}
-  SubmitBlog -- Yes --> WaitApproval[Waiting for Admin Approval]
+  SubmitBlog -- Yes --> WaitApproval["Waiting for Admin Approval"]
   SubmitBlog -- No --> AuthorDashboard
 
   WaitApproval --> ApprovalResult{Admin Approved?}
-  ApprovalResult -- Yes --> Published[Blog Published]
-  ApprovalResult -- No --> Rejected[Blog Rejected (Edit and Resubmit)]
+  ApprovalResult -- Yes --> Published["Blog Published"]
+  ApprovalResult -- No --> Rejected["Blog Rejected: Edit and Resubmit"]
 
   Published --> AuthorDashboard
   Rejected --> AuthorDashboard
@@ -55,12 +55,12 @@ flowchart TD
   ManageOwnComments --> AuthorDashboard
 
   %% Reader Actions
-  ReaderDashboard --> BrowseBlogs[Browse Blogs]
-  BrowseBlogs --> ViewBlogDetail[View Blog Details]
+  ReaderDashboard --> BrowseBlogs["Browse Blogs"]
+  BrowseBlogs --> ViewBlogDetail["View Blog Details"]
   
-  ViewBlogDetail --> CommentBlog[Comment on Blog]
-  ViewBlogDetail --> LikeBlog[Like Blog]
-  ViewBlogDetail --> ShareBlog[Share Blog]
+  ViewBlogDetail --> CommentBlog["Comment on Blog"]
+  ViewBlogDetail --> LikeBlog["Like Blog"]
+  ViewBlogDetail --> ShareBlog["Share Blog"]
 
   CommentBlog --> CommentSubmitted{Comment Submitted?}
   CommentSubmitted -- Yes --> ViewBlogDetail
