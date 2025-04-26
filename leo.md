@@ -1,24 +1,23 @@
-## Blog Management - Use Case Diagram
+## Blog Management - Use Case Diagram (GitHub Compatible)
 
 ```mermaid
-%% Mermaid Use Case Diagram
-usecaseDiagram
-  actor Admin
-  actor Author
-  actor Reader
+flowchart TD
+  Admin((Admin))
+  Author((Author))
+  Reader((Reader))
 
-  Admin --> (Manage Users)
-  Admin --> (Manage Blogs)
-  Admin --> (View Reports)
+  Admin -->|Manage| Users
+  Admin -->|Manage| Blogs
+  Admin -->|View| Reports
 
-  Author --> (Write Blog Post)
-  Author --> (Edit Blog Post)
-  Author --> (Delete Blog Post)
-  Author --> (View Own Blogs)
-  Author --> (Manage Comments)
+  Author -->|Write| "Write Blog Post"
+  Author -->|Edit| "Edit Blog Post"
+  Author -->|Delete| "Delete Blog Post"
+  Author --> "View Own Blogs"
+  Author --> "Manage Comments"
 
-  Reader --> (View Blogs)
-  Reader --> (Search Blogs)
-  Reader --> (Comment on Blog)
-  Reader --> (Like/Share Blog)
+  Reader --> "View Blogs"
+  Reader --> "Search Blogs"
+  Reader --> "Comment on Blog"
+  Reader --> "Like/Share Blog"
 ```
